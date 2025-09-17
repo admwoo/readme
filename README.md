@@ -1,4 +1,4 @@
-# Ecodata Waste Tracker
+# Ecodata RecycleRight
 
 <div align="center">
   <img src="logo.png" alt="Project Logo" width="600"/>
@@ -17,7 +17,6 @@ Our waste tracker website provides an easy way to track waste usage, as well as 
 - [Quick Start](#-quick-start)
 - [Installation](#-installation)
 - [Features](#-features)
-- [Architecture](#-architecture)
 - [Usage Examples](#-usage-examples)
 - [FAQ](#-frequently-asked-questions)
 - [License](#-license)
@@ -66,7 +65,9 @@ npm install ejs
 
 **That's it! Your project is now running.**
 
-> **Installation Demo GIF**: ![Installation Process](https://via.placeholder.com/800x400/E8F4FD/1D72B8?text=INSTALLATION+GIF+PLACEHOLDER)
+<div align="center">
+  <img src="setup_3x.gif" alt="setup gif" width="600"/>
+</div>
 
 ---
 
@@ -95,20 +96,21 @@ Have an item to dispose but don't know what to do with it? Scan your item, and w
 
 To access basic features such as the waste or progress tracker, you must login with an account. If you don't have an account, you can register one on the signup page.
 
+<div align="center">
+  <img src="login_sped.gif" alt="login gif" width="600"/>
+</div>
 
 
 ## Frequently Asked Questions
 
 ### General Questions
 
-**Q: What makes ProjectName different from alternatives?**
-A: ProjectName focuses on [key differentiator]. Unlike other solutions that [limitation of alternatives], we provide [unique benefit] with [specific advantage].
+**Q: What makes RecycleRight different from alternatives?**
+A: Not only does RecycleRight provide a user friendly site to track you carbon footprint by waste disposal, but it also has object detection and classification abilities to seamlessly and quickly provide guidelines for an item and store it in the waste tracker.
 
-**Q: Is ProjectName suitable for production use?**
-A: Yes! ProjectName is production-ready and used by [mention notable users/companies if any]. It includes comprehensive logging, monitoring, and error handling.
+**Q: Is RecycleRight suitable for production use?**
+A: Unfortunately not currently. While you can access the website locally, there are still some features and aspects that are still in progress of developing. Feel free to still visit the website to use its current functionality, and we welcome any feedback you may have.
 
-**Q: What's the performance impact?**
-A: ProjectName is designed for high performance with minimal overhead. Typical operations complete in [performance metrics] with memory usage of [memory metrics].
 
 ## License
 
