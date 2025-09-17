@@ -78,84 +78,22 @@ npm install ejs
 
 Have an item to dispose but don't know what to do with it? Scan your item, and we'll provide guidelines on how to dispose of it, and log it into your waste tracker. 
 
+<div align="center">
+  <img src="greenscan.png" alt="Project Logo" width="600"/>
+</div>
 
-
-**Example**: [Concrete example of when/why someone would use this]
-
-```bash
-
-```
 
 #### Additional Features
 - General Recycling guidelines
 - Login and Signup
 - Progress tracker
-
-
----
-
-## Architecture
-
-### System Overview
-
-![Architecture Diagram](https://via.placeholder.com/800x600/F5F5F5/333333?text=ARCHITECTURE+DIAGRAM+PLACEHOLDER)
-
-### Component Architecture
-
-The system follows a modular, microservices-based architecture:
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend UI   │    │   API Gateway   │    │   Core Engine   │
-│                 │◄──►│                 │◄──►│                 │
-│ React/Vue/etc   │    │ Authentication  │    │ Business Logic  │
-└─────────────────┘    │ Rate Limiting   │    │ Data Processing │
-                       └─────────────────┘    └─────────────────┘
-                                │                       │
-                                ▼                       ▼
-                       ┌─────────────────┐    ┌─────────────────┐
-                       │   Message Bus   │    │   Data Layer    │
-                       │                 │    │                 │
-                       │ Redis/RabbitMQ  │    │ PostgreSQL      │
-                       └─────────────────┘    │ Redis Cache     │
-                                             └─────────────────┘
-```
-
-### Key Architectural Principles
-
-- **Separation of Concerns**: Each component has a single, well-defined responsibility
-- **Scalability**: Horizontal scaling supported at every layer
-- **Reliability**: Built-in redundancy and failover mechanisms
-- **Security**: Zero-trust architecture with encrypted communication
-
 ---
 
 ## 💡 Usage Examples
 
 ### Basic Usage
 
-```javascript
-import { ProjectName } from 'project-name';
-
-// Initialize the client
-const client = new ProjectName({
-  apiKey: 'your-api-key',
-  environment: 'production'
-});
-
-// Basic operation
-const result = await client.performOperation({
-  data: 'example-data',
-  options: {
-    timeout: 5000,
-    retries: 3
-  }
-});
-
-console.log('Operation completed:', result);
-```
-
-
+To access basic features such as the waste or progress tracker, you must login with an account. If you don't have an account, you can register one on the signup page.
 
 
 
