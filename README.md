@@ -67,10 +67,6 @@ npm install ejs
 
 **That's it! Your project is now running.**
 
-<div align="center">
-  <img src="setup_3x.gif" alt="setup gif" width="600"/>
-</div>
-
 ---
 
 ## Features
