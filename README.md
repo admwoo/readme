@@ -16,13 +16,13 @@ Our waste tracker website provides an easy way to track waste usage, as well as 
 
 ## Table of Contents
 
-- [Quick Start](#-quick-start)
-- [Installation](#-installation)
-- [Features](#-features)
-- [Usage Examples](#-usage-examples)
-- [FAQ](#-frequently-asked-questions)
-- [License](#-license)
-- [Support](#-support)
+- [Quick Start](#quick-start)
+- [Installation](#installation)
+- [Features](#features)
+- [Usage Examples](#usage-examples)
+- [FAQ](#frequently-asked-questions)
+- [License](#license)
+- [Support](#support)
 
 ---
 
