@@ -4,6 +4,8 @@
   <img src="logo.png" alt="Project Logo" width="600"/>
 </div>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ---
 
 ## Project Description
@@ -75,19 +77,36 @@ npm install ejs
 
 ### Core Features
 
-#### Feature 1: GreenScan Item Scanner
-
-Have an item to dispose but don't know what to do with it? Scan your item, and we'll provide guidelines on how to dispose of it, and log it into your waste tracker. 
-
+#### Feature 1: Waste Input and Tracker
 <div align="center">
-  <img src="greenscan.png" alt="Project Logo" width="600"/>
+  <img src="waste_tracker.gif" alt="tracker gif" width="600"/>
 </div>
 
+With this feature, you can manually enter waste type and weight to track your waste usage. Entries will be saved to your account with timestamps accordingly. 
+
+#### Feature 2: GreenScan Item Scanner (Work in Progress)
+
+Have an item to dispose but don't know what it is or what to do with it? Scan your item, and we'll classify what the item is, and provide guidelines on how to dispose of it, logging it into your waste tracker. 
+
+<div align="center">
+  <img src="greenscan.png" alt="green scan ui" width="600"/>
+</div>
+
+This is the current user interface for the item scanner on the website. 
+
+<div align="center">
+  <img src="green_scan.gif" alt="green sca gif" width="600"/>
+</div>
+
+If you would like to run a demo of the scanner locally in your IDE, you can run the following command:
+
+```bash
+python python_scripts/trash_detect.py
+```
 
 #### Additional Features
 - General Recycling guidelines
-- Login and Signup
-- Progress tracker
+- Account Login and Signup
 ---
 
 ## 💡 Usage Examples
@@ -95,11 +114,6 @@ Have an item to dispose but don't know what to do with it? Scan your item, and w
 ### Basic Usage
 
 To access basic features such as the waste or progress tracker, you must login with an account. If you don't have an account, you can register one on the signup page.
-
-<div align="center">
-  <img src="login_sped.gif" alt="login gif" width="600"/>
-</div>
-
 
 ## Frequently Asked Questions
 
@@ -111,6 +125,9 @@ A: Not only does RecycleRight provide a user friendly site to track you carbon f
 **Q: Is RecycleRight suitable for production use?**
 A: Unfortunately not currently. While you can access the website locally, there are still some features and aspects that are still in progress of developing. Feel free to still visit the website to use its current functionality, and we welcome any feedback you may have.
 
+**Q: How do I know if the recycling guidelines apply to my local municipality?**
+A: Unfortunately, the current guidelines only apply to the local Ann Arbor, MI area. We are currently working on expanding this other areas.
+
 
 ## License
 
@@ -119,6 +136,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-Special thanks to all our contributors who make this project possible.
+Special thanks to all our contributors at EcoData who made this project possible.
 
 ---
